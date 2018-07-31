@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=Taller3
+comment1.params=n
+comment1.target=void\ torresDeHannoi(int)
+comment2.params=n\ origen\ intermedio\ destino
+comment2.target=void\ torresDeHannoiAux(int,\ int,\ int,\ int)
+comment2.text=\r\n\r\n\ El\ m\u00E9todo\ torresDeHannoi\ es\ un\ auxiliar\ del\ proceso\ \r\n\ @param\ n\ numero\ de\ discos\r\n\ @param\ origen\ la\ torre\ n\u00FAmero\ uno\ donde\ se\ posicionan\ todos\ los\ discos\ inicialmente\r\n\ @param\ destino\ la\ torre\ donde\ deben\ posicionarse\ todos\ los\ discos\ terminado\ el\ proceso\r\n\ @param\ intermedio\ torre\ auxiliar\ para\ que\ el\ cambio\ de\ torres\ se\ haga\ efectivo\r\n\ \r\n\ debe\ devolver\ la\ secuencia\ de\ pasos\ en\ consola\ de\ esta\ manera\:\r\n\ System.out.println("Disk\ "+\ n\ +\ "\ from\ "+\ origen\ +\ "\ to\ "+\ destino);\r\n\r\n\ @see\ <a\ href\="http\://www.uterra.com/juegos/torre_hanoi.php">\ Simulaci\u00F3n\ del\ funcionamiento</a>\r\n\ @see\ <a\ href\="https\://es.wikipedia.org/wiki/Torres_de_Han%C3%B3i">\ Un\ poco\ de\ historia\ </a>\r\n
+comment3.params=str
+comment3.target=void\ permutation(java.lang.String)
+comment3.text=\r\n\r\n\ El\ m\u00E9todo\ permutation\ es\ un\ auxiliar\ del\ proceso\ \r\n\ @param\ str\ es\ la\ cadena\ a\ permutar\r\n
+comment4.params=p\ str
+comment4.target=void\ permutationAux(java.lang.String,\ java.lang.String)
+comment4.text=\r\n\r\n\ El\ m\u00E9todo\ permutationAux\ es\ el\ core\ del\ proceso,\ en\ el\ se\ busca\ conseguir\r\n\ las\ posibles\ permutaciones\ que\ puede\ tener\ la\ cadena\ str\ \r\n\ @param\ str\ es\ la\ cadena\ a\ permutar\r\n\ @param\ prefix\ cadena\ auxiliar\ donde\ se\ guarda\ la\ cadena\ de\ salida\r\n\r\n\ Las\ cadenas\ de\ salida\ tienes\ una\ longitud\ de\ lenght\ de\ la\ cadena\ s\r\n\ Ej\:\ para\ la\ cadena\ AB\ se\ tiene\ la\ salida\:\ {\ ABC,ACB,BAC,BCA,CAB,CBA\ }\r\n\ donde\ los\ caracteres\ no\ se\ repiten\ pero\ el\ orden\ tiene\ un\ papel\ importante.\r\n\r\n
+numComments=5
