@@ -16,20 +16,18 @@ public class Taller4 {
 
     /**
      * COMPLEJIDAD:
-     * T(n) es O(m*n)
+     * T(n)=c1n+c2(n^2)+c3(n^2)+c4(n^2)c5(n^2)+c6
+     * T(n)=O((c2+c3+c4+c5)*n^2)
+     * T(n) es O(n^2)
      */
     public static int[] insertionSort (int[] array){
         for(int i=0;i<array.length;i++){
-
             for(int j=0;j<i;j++){
                 int x=array[i];
                 int y=array[j];
                 if(x<y){ array[i]=y; array[j]=x; i--; break;}
-                //if(x==y){ array[i]=array[j+1]; array[j+1]=y;}
             }
-
         }
-        //for(int i=0;i<array.length;i++){ System.out.println(array[i]);}
         return array;
     }    
 
