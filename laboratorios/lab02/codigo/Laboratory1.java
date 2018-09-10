@@ -24,7 +24,7 @@ public class Laboratory1
     // Sorts an array using Insertion Sort
     public static void InsertionSort(int[] A)
     {
-        long m = System.currentTimeMillis(); 
+        //long m = System.currentTimeMillis(); 
         int temp,j;
         for (int i = 0; i < A.length; i++)
         {
@@ -38,8 +38,8 @@ public class Laboratory1
             }           
         }
         //System.out.println(Arrays.toString(A));
-        long s= System.currentTimeMillis();
-        System.out.println(s-m);
+        //long s= System.currentTimeMillis();
+        //System.out.println(s-m);
     }
 
     // Sorts an array using Merge Sort
@@ -90,18 +90,18 @@ public class Laboratory1
     public static void main(String[] args)
     {
 
-        for (int i = 1000; i <= 2000000; i = i + 100000){
+        for (int i = 100000; i <= 300000; i = i + 10000){
             int[] a = new int[i];
             for (int j = 0; j < i; j++ ){
                 a[j] = (int)(Math.random()*100);
             }
-            //long start = System.currentTimeMillis();
-            Laboratory1.mergeSort(a);
-            Laboratory1.InsertionSort(a);
-            //long fin = System.currentTimeMillis();   
+            long start = System.currentTimeMillis();
+            //Laboratory1.mergeSort(a);
+            InsertionSort(a);
+            long fin = System.currentTimeMillis();   
             //System.out.println(Laboratory1.ArraySum(a) + " " + Laboratory1.ArrayMax(a) + "\n" );
-            //System.out.println(fin-start);
-            System.out.println();
+            System.out.println(fin-start);
+            //System.out.println();
         }
 
     }
