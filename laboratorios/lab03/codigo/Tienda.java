@@ -35,11 +35,19 @@ public class Tienda
     public void remove(int index)
     {
         if(index==0){
+            first=getNevera(0).next;
             getNevera(0).next=null;
         }else{
             getNevera(index-1).next=getNevera(index).next;
             //getNode(index).next=null;
         }
         size--;
+    }
+    
+    public void asignar(int n){
+        for(int i=0;i<size;i=i){
+            System.out.println("se ha sacado la nevera con el codigo " +getNevera(0).codigo+ " y descripcion" +getNevera(0).des );
+            remove(0);
+        }
     }
 }
