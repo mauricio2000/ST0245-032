@@ -23,6 +23,11 @@ public class coloreable
                     return false;
                 }
             }
+            for(int h=0;h<=i;h++){
+                if(i==grafo.length-1 && colores[h]==0){
+                    i=0;
+                }
+            }
         }
         return true;
     }
