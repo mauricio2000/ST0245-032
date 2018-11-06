@@ -7,8 +7,9 @@ public class abeja{
         this.x=x;
         this.y=y;
         this.z=z;
-        c=false;
+        c=false;   //aca se le asignan las coordenadas a las abejas
     }
+    //estos metodos sirven para retornar sus coordenadas en cada dimension
     public double getX(){
         return x;
     }
