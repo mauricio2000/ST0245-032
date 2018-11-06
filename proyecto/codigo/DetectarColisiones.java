@@ -58,7 +58,7 @@ public class DetectarColisiones{
                 }
             }
         }
-        System.out.println(choques.size());
+        System.out.println(choques.size()/2);
         System.out.println(enjambre.size());
         return choques;
     }
@@ -95,7 +95,7 @@ public class DetectarColisiones{
         if(!t){
             hashExi.add(r);
             cajon c= new cajon();
-            
+            c.add(a);
             cajones.add(c);
         }   
         return t;
